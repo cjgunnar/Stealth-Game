@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8ed01b5ade59bc1479d04f8995050992
+timeCreated: 1501184177
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - openDoorSound: {instanceID: 0}
+  - unlockDoorSound: {fileID: 8300000, guid: e38dc9e8e79a6d441bc1a0420da7c25f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
