@@ -29,12 +29,12 @@ public class KeyReader : MonoBehaviour {
         //only check if door is locked and closed
         if (doorControl.CheckDoorLock() && !doorControl.CheckDoorOpen())
         {
-            if (inventory.CheckForItem(correctKeyCardName) || inventory.CheckForItem("Level 2 Key Card") || inventory.CheckForItem("Level 1 Key Card"))
+            if (inventory.getEquipped().type == "keycard")
             {
                 //if the player has any card
                 anim.SetBool("hasCard", true);
 
-                if (inventory.CheckForItem(correctKeyCardName))
+                if (inventory.isEquipped(correctKeyCardName))
                 {
                     //if the player has the correct key card
                     //inventory.RemoveItem(correctKeyCardName);

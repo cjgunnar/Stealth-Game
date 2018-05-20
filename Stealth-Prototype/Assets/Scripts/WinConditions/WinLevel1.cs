@@ -39,14 +39,7 @@ public class WinLevel1 : MonoBehaviour {
 
     bool CheckRequirements()
     {
-        if (inv.CheckForItem("winIntel"))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return (inv.CheckForItem("usb"));
     }
 
     void OnMouseDown()

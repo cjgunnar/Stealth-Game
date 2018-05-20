@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 
-public class PickUp : MonoBehaviour {
+public class PickUp : MonoBehaviour
+{
 
-    public string TypeOfItem;
+    public Item item;
+
     public bool destroyAfter;
     private bool playerIsActive;
     private Transform player;
     public float selectionDistance = 3f;
+
     InventoryManager inventory;
 
     private SelectionPanelController select;
 
-    void Start ()
+    void Start()
     {
         inventory = FindObjectOfType<InventoryManager>();
         select = FindObjectOfType<SelectionPanelController>();
@@ -36,7 +39,7 @@ public class PickUp : MonoBehaviour {
         playerIsActive = false;
     }
 
-    void OnMouseDown ()
+    void OnMouseDown()
     {
         float distance;
         distance = Vector3.Distance(transform.position, player.position);
@@ -45,33 +48,17 @@ public class PickUp : MonoBehaviour {
             PickUpItem();
             select.Close();
         }
-        
+
     }
 
     void PickUpItem()
     {
-        switch (TypeOfItem)
+        //add to inventory
+        inventory.AddItem(item);
+
+        if (item != null)
         {
-            case "Level 1 Key Card":
-                inventory.AddItem("Level 1 Key Card");
-                break;
-
-            case "Level 2 Key Card":
-                inventory.AddItem("Level 2 Key Card");
-                break;
-
-            case "winIntel":
-                inventory.AddItem("winIntel");
-                break;
-
-            default:
-                break;
-
-
-        }
-        if (TypeOfItem != null)
-        {
-            Debug.Log("Selected: " + TypeOfItem);
+            Debug.Log("Selected: " + item);
         }
         else
         {
