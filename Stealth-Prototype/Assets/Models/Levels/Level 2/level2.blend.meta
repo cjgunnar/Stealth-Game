@@ -3,33 +3,95 @@ guid: fa929100b3df5644389dd998bd0abf65
 timeCreated: 1499572843
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: Cube
     100004: Stairs
     100006: Stairs_001
+    100008: Baseboard
+    100010: Ceiling
+    100012: Floor
+    100014: Room
+    100016: Wall_cover
+    100018: Baseboard_001
+    100020: Ceiling_001
+    100022: Floor_001
+    100024: Room_001
+    100026: Cube_001
+    100028: Stairs_002
     400000: //RootNode
     400002: Cube
     400004: Stairs
     400006: Stairs_001
+    400008: Baseboard
+    400010: Ceiling
+    400012: Floor
+    400014: Room
+    400016: Wall_cover
+    400018: Baseboard_001
+    400020: Ceiling_001
+    400022: Floor_001
+    400024: Room_001
+    400026: Cube_001
+    400028: Stairs_002
     2300000: //RootNode
     2300002: Cube
     2300004: Stairs
     2300006: Stairs_001
+    2300008: Baseboard
+    2300010: Ceiling
+    2300012: Floor
+    2300014: Room
+    2300016: Wall_cover
+    2300018: Baseboard_001
+    2300020: Ceiling_001
+    2300022: Floor_001
+    2300024: Room_001
+    2300026: Cube_001
+    2300028: Stairs_002
     3300000: //RootNode
     3300002: Cube
     3300004: Stairs
     3300006: Stairs_001
+    3300008: Baseboard
+    3300010: Ceiling
+    3300012: Floor
+    3300014: Room
+    3300016: Wall_cover
+    3300018: Baseboard_001
+    3300020: Ceiling_001
+    3300022: Floor_001
+    3300024: Room_001
+    3300026: Cube_001
+    3300028: Stairs_002
     4300000: Cube
     4300002: Stairs
     4300004: Stairs_001
+    4300006: Room
+    4300008: Ceiling
+    4300010: Floor
+    4300012: Baseboard
+    4300014: Wall_cover
+    4300016: Room_001
+    4300018: Ceiling_001
+    4300020: Floor_001
+    4300022: Baseboard_001
+    4300024: Cube_001
+    4300026: Stairs_002
     7400000: Default Take
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: a501a392bbf529c4da7cdc79b3f5ff85, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -42,12 +104,14 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -55,13 +119,18 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -71,6 +140,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 0
   copyAvatar: 0
   humanDescription:

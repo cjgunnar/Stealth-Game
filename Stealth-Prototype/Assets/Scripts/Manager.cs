@@ -157,7 +157,8 @@ public class Manager : MonoBehaviour {
 
     public void NextLevel ()
     {
-        //Debug.Log("load next level...");
+        //go to next scene in build index
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void RetryLevel ()
