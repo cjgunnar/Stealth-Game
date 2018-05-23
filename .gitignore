@@ -5,6 +5,9 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+#AssetStore Materials
+*/"Asset Store"
+
 # Visual Studio cache directory
 .vs/
 
@@ -34,6 +37,6 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-# Reference Doc
-#none
+# Testing
+/Assets/Scenes/Testing*
 
