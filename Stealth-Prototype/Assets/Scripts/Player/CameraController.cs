@@ -9,6 +9,11 @@ public class CameraController : MonoBehaviour {
 
     GameObject character;
 
+    void OnEnable()
+    {
+        
+    }
+
     // Use this for initialization
     void Start()
     {
@@ -33,4 +38,10 @@ public class CameraController : MonoBehaviour {
         transform.localRotation = Quaternion.AngleAxis(-mouseLook.y, Vector3.right);
         character.transform.localRotation = Quaternion.AngleAxis(mouseLook.x, character.transform.up);
     }
+
+    public void OnSensitivityChange(float sensitivity)
+    {
+
+    }
+
 }
