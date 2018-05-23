@@ -38,5 +38,7 @@ sysinfo.txt
 *.unitypackage
 
 # Testing
-/Assets/Scenes/Testing*
+*Assets/Scenes/Testing*
+Stealth-Prototype/Assets/Scenes/Testing.unity
+Stealth-Prototype/Assets/Scenes/Testing*
 
