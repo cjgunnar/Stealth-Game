@@ -10,6 +10,8 @@ public class EnemySenses_3 : MonoBehaviour
     public float viewAngle = 90;
     RaycastHit hit;
 
+    float sphereRadius = 0.1f;
+
     //public float chaseMultiplier;
 
     //private bool lastFramePlayerInSight = false;
@@ -69,36 +71,6 @@ public class EnemySenses_3 : MonoBehaviour
 
     #endregion
 
-    void FixedUpdate ()
-    {
-        /*
-        //what the heck sort of wild west code is this
-
-        //if can see player
-        if(CheckLineOfSight())
-        {
-            //add time to viewTime (within 100)
-            if (viewTime <= 100)
-                viewTime += 1f;
-            Mathf.Clamp(viewTime, 0, 100);
-
-            //
-            viewTimeLastTime = viewTimeResetTime;
-        }
-
-        //can't see player
-        else
-        {
-            Mathf.Clamp(viewTimeLastTime, 0, viewTimeResetTime);
-
-            if (viewTimeLastTime <= 0)
-            {
-                viewTime -= 2;
-            }
-        }
-        */
-    }
-
     public bool CheckLineOfSight ()
     {
         if (!playerIsActive)
@@ -120,7 +92,7 @@ public class EnemySenses_3 : MonoBehaviour
         origin.y += 1;
 
         //returns true if anything hit, facing correctly, and object hit has a tag of "player"
-        if (Physics.SphereCast(origin, 1f, direction, out hit, viewRange) && angle < (viewAngle / 2) && hit.transform.tag == "Player")
+        if (Physics.SphereCast(origin, sphereRadius, direction, out hit, viewRange) && angle < (viewAngle / 2) && hit.transform.tag == "Player")
         {
             Debug.DrawLine(origin, hit.point, Color.green);
 
