@@ -20,6 +20,8 @@ ModelImporter:
     100024: Room_001
     100026: Cube_001
     100028: Stairs_002
+    100030: Floor___Ceiling
+    100032: Walls
     400000: //RootNode
     400002: Cube
     400004: Stairs
@@ -35,6 +37,8 @@ ModelImporter:
     400024: Room_001
     400026: Cube_001
     400028: Stairs_002
+    400030: Floor___Ceiling
+    400032: Walls
     2300000: //RootNode
     2300002: Cube
     2300004: Stairs
@@ -50,6 +54,8 @@ ModelImporter:
     2300024: Room_001
     2300026: Cube_001
     2300028: Stairs_002
+    2300030: Floor___Ceiling
+    2300032: Walls
     3300000: //RootNode
     3300002: Cube
     3300004: Stairs
@@ -65,6 +71,8 @@ ModelImporter:
     3300024: Room_001
     3300026: Cube_001
     3300028: Stairs_002
+    3300030: Floor___Ceiling
+    3300032: Walls
     4300000: Cube
     4300002: Stairs
     4300004: Stairs_001
@@ -79,9 +87,26 @@ ModelImporter:
     4300022: Baseboard_001
     4300024: Cube_001
     4300026: Stairs_002
+    4300028: Walls
+    4300030: Floor___Ceiling
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bricks__concreteBricks1_jpg
+    second: {fileID: 2100000, guid: 8a1394a4144c78849a94261af44f6c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete__concrete2_jpg
+    second: {fileID: 2100000, guid: 81278a738226ea74fa4efa46baf444e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StairsMaterial
+    second: {fileID: 2100000, guid: 3c2095bd2edb7f248b5f6aec7f662b38, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

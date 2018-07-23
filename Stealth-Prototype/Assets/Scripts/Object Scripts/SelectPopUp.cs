@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(Collider))]
 public class SelectPopUp : MonoBehaviour {
     //shows a selection pop up when looked at
     //communicates with SelectionPanelController

@@ -13,7 +13,7 @@ public class PauseMenu : MonoBehaviour {
 
 	void Start ()
     {
-        Debug.Log("child count: " + transform.childCount);
+        //Debug.Log("child count: " + transform.childCount);
 
         //set component
         pausedPanel = gameObject.GetComponent<Image>();

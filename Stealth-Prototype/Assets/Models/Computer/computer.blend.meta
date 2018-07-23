@@ -3,34 +3,125 @@ guid: d6f2b8c89abc8e84e808f1ece8a013d7
 timeCreated: 1498965701
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: Cube
     100004: Cube_001
     100006: Cube_002
+    100008: Computer
+    100010: Computer_001
+    100012: Cube_003
+    100014: Cube_004
+    100016: Cube_005
+    100018: Cube_006
+    100020: Cube_007
+    100022: Keys_1
+    100024: Keys_2
+    100026: Keys_3
+    100028: Keys_4
+    100030: Keys_5
+    100032: Keys_6
+    100034: Mousepad
+    100036: Screen
     400000: //RootNode
     400002: Cube
     400004: Cube_001
     400006: Cube_002
+    400008: Computer
+    400010: Computer_001
+    400012: Cube_003
+    400014: Cube_004
+    400016: Cube_005
+    400018: Cube_006
+    400020: Cube_007
+    400022: Keys_1
+    400024: Keys_2
+    400026: Keys_3
+    400028: Keys_4
+    400030: Keys_5
+    400032: Keys_6
+    400034: Mousepad
+    400036: Screen
     2300000: //RootNode
     2300002: Cube
     2300004: Cube_001
     2300006: Cube_002
+    2300008: Computer
+    2300010: Computer_001
+    2300012: Cube_003
+    2300014: Cube_004
+    2300016: Cube_005
+    2300018: Cube_006
+    2300020: Cube_007
+    2300022: Keys_1
+    2300024: Keys_2
+    2300026: Keys_3
+    2300028: Keys_4
+    2300030: Keys_5
+    2300032: Keys_6
+    2300034: Mousepad
+    2300036: Screen
     3300000: //RootNode
     3300002: Cube
     3300004: Cube_001
     3300006: Cube_002
+    3300008: Computer
+    3300010: Computer_001
+    3300012: Cube_003
+    3300014: Cube_004
+    3300016: Cube_005
+    3300018: Cube_006
+    3300020: Cube_007
+    3300022: Keys_1
+    3300024: Keys_2
+    3300026: Keys_3
+    3300028: Keys_4
+    3300030: Keys_5
+    3300032: Keys_6
+    3300034: Mousepad
+    3300036: Screen
     4300000: Computer
     4300002: Cube_002
     4300004: Cube_001
     4300006: Cube
+    4300008: Computer_001
+    4300010: Cube_007
+    4300012: Cube_006
+    4300014: Cube_005
+    4300016: Cube_004
+    4300018: Cube_003
+    4300020: Screen
+    4300022: Keys_4
+    4300024: Keys_3
+    4300026: Keys_2
+    4300028: Keys_1
+    4300030: Keys_6
+    4300032: Mousepad
+    4300034: Keys_5
     7400000: Default Take
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Computer
+    second: {fileID: 2100000, guid: 9db79b9e44e0c214895dc7281a1d2a45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Keys
+    second: {fileID: 2100000, guid: d02b4cd95e9afc74c8e3acdde91b8ab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen
+    second: {fileID: 2100000, guid: 57be9da5863d9ca42afb1b81d3035607, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -43,12 +134,14 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -56,13 +149,18 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -72,6 +170,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
